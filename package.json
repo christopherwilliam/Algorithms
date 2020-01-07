@@ -1,0 +1,34 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "environment for solving algorithms",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "watch": "webpack --watch",
+    "local": "babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DillonBArevalo/blankJsSetup.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DillonBArevalo/blankJsSetup/issues"
+  },
+  "homepage": "https://github.com/DillonBArevalo/blankJsSetup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
