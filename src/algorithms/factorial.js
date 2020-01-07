@@ -10,5 +10,5 @@ export function recursiveFactorial(x) {
   if (x <= 1) {
     return 1;
   }
-  return recursiveFactorial(x-1) * x;
+  return recursiveFactorial(x - 1) * x;
 }
