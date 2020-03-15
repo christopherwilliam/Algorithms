@@ -1,6 +1,6 @@
 import isPrime from './primeFinder'
 import {primeFactors} from './primeFinder'
-describe('this is a pseudo TDD build of an isPrime method', () => {
+describe('isPrime', () => {
     test('running isPrime on an even number should return false', () => {
         let number = 4;
         expect(isPrime(number)).toBe(false);
