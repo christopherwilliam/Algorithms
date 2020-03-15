@@ -10,7 +10,7 @@ describe('this is a pseudo TDD build of an isPrime method', () => {
         expect(isPrime(number)).toBe(true);
     });
 });
-describe('this is a section to test the primeFactors method', () => {
+describe('primeFactors', () => {
     test('running primeFactors on a number should return an object which contains a list of its prime factors', () => {
         let number = 13 * 4 * 7 * 5;
         expect(primeFactors(number)).toEqual({
