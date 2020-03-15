@@ -8,7 +8,7 @@ export default function isPrime(number) {
     return true;
 }
 export function primeFactors(number) {
-    var start = Math.ceil(number / 2);
+    var start = Math.floor(number / 2);
     var factors = {};
     for (let factor = start; factor > 1; factor--) {
         if (!(number % factor) && isPrime(factor)) {
