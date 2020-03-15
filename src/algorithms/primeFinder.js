@@ -1,5 +1,5 @@
 export default function isPrime(number) {
-    var start = Math.ceil(number / 2);
+    var start = Math.floor(number / 2);
     for (let i = start; i >= 2; i--) {
         if (!(number % i)) {
             return false;
